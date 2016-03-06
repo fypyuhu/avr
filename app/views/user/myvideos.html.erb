@@ -1,0 +1,280 @@
+
+<div class="content-wrapper">
+  <!-- Content Header (Page header) -->
+  <section class="content-header">
+    <h1>
+      <i class="fa fa-video-camera"></i> MyVideos
+      <small>create,upload and submit Your Video here</small>
+    </h1>
+
+  </section>
+
+  <!-- Main content -->
+  <section class="content">
+
+    <div class="row">
+      <div class="col-md-12" >
+        <p>
+          <a class="btn btn-block btn-social btn-google btn-lg">
+            <i class="fa fa-youtube-play"></i> Start Creating a new Video Now
+          </a>
+        </p>
+      </div>
+
+      <div class="col-md-12" >
+        <div class="nav-tabs-custom">
+          <ul class="nav nav-tabs pull-right">
+            <li class=""><a aria-expanded="false" href="#tab_submited" data-toggle="tab">Submited</a></li>
+            <li class=""><a aria-expanded="false" href="#tab_uploaded" data-toggle="tab">Uploaded</a></li>
+            <li class="active"><a aria-expanded="true" href="#tab_created" data-toggle="tab">Created</a></li>
+
+            <li class="pull-left header"><i class="fa fa-th"></i> Video Records</li>
+          </ul>
+          <div class="tab-content">
+            <div class="tab-pane active" id="tab_created">
+
+              <div class="box">
+                <div class="box-header">
+                  <h3 class="box-title">Created Videos</h3>
+                </div>
+                <!-- /.box-header -->
+                <div class="box-body table-responsive">
+                  <table id="table_created" class="table table-bordered table-hover table-responsive">
+                    <thead>
+                    <tr>
+                      <th>Thumb</th>
+                      <th>title</th>
+                      <th>duration</th>
+                      <th>Action</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                      <td class="pull-left image" style="width: auto"><img src="/back/dist/img/user2-160x160.jpg" class=" img-rounded img-responsive img-thumbnail" alt="User Image" ></td>
+                      <td>Internet
+                        Explorer 4.0
+                      </td>
+                      <td>Win 95+</td>
+                      <td>
+                        <a class="btn btn-app" onclick="modal_open('play',1)" >
+                          <i class="fa fa-play"></i> Play
+                        </a>
+
+                        <a class="btn btn-app" onclick="modal_open('edit',1)" >
+                          <i class="fa fa-edit"></i> Edit
+                        </a>
+
+                        <a class="btn btn-app" onclick="modal_open('upload',1)" >
+                          <i class="fa fa-cloud-upload" ></i> Upload
+                        </a>
+                        <a class="btn btn-app" onclick="modal_open('delete',1)" >
+                          <i class="fa fa-trash-o" ></i> Delete
+                        </a>
+                        <a class="btn btn-app" onclick="modal_open('submit',1)" >
+                          <i class="fa  fa-check-circle" ></i> Submit
+                        </a>
+                      </td>
+                    </tr>
+
+                    </tfoot>
+                  </table>
+                </div>
+                <!-- /.box-body -->
+              </div>
+              <!-- /.box -->
+            </div>
+            <!-- /.tab-pane -->
+            <div class="tab-pane" id="tab_uploaded">
+              <div class="box">
+                <div class="box-header">
+                  <h3 class="box-title">Uploaded Videos</h3>
+                </div>
+                <!-- /.box-header -->
+                <div class="box-body">
+                  <table id="table_uploaded" class="table table-bordered table-hover">
+                    <thead>
+                    <tr>
+                      <th>Rendering engine</th>
+                      <th>Browser</th>
+                      <th>Platform(s)</th>
+                      <th>Engine version</th>
+                      <th>CSS grade</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                      <td>Trident</td>
+                      <td>Internet
+                        Explorer 4.0
+                      </td>
+                      <td>Win 95+</td>
+                      <td> 4</td>
+                      <td>X</td>
+                    </tr>
+                    <tr>
+                      <td>Trident</td>
+                      <td>Internet
+                        Explorer 5.0
+                      </td>
+                      <td>Win 95+</td>
+                      <td>5</td>
+                      <td>C</td>
+                    </tr>
+                    <tr>
+                      <td>Trident</td>
+                      <td>Internet
+                        Explorer 5.5
+                      </td>
+                      <td>Win 95+</td>
+                      <td>5.5</td>
+                      <td>A</td>
+                    </tr>
+                    </tfoot>
+                  </table>
+                </div>
+                <!-- /.box-body -->
+              </div>
+
+            </div>
+            <!-- /.tab-pane -->
+            <div class="tab-pane " id="tab_submited">
+              <div class="box">
+                <div class="box-header">
+                  <h3 class="box-title">Submited</h3>
+                </div>
+                <!-- /.box-header -->
+                <div class="box-body">
+                  <table id="table_submited" class="table table-bordered table-hover">
+                    <thead>
+                    <tr>
+                      <th>Rendering engine</th>
+                      <th>Browser</th>
+                      <th>Platform(s)</th>
+                      <th>Engine version</th>
+                      <th>CSS grade</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                      <td>Trident</td>
+                      <td>Internet
+                        Explorer 4.0
+                      </td>
+                      <td>Win 95+</td>
+                      <td> 4</td>
+                      <td>X</td>
+                    </tr>
+                    <tr>
+                      <td>Trident</td>
+                      <td>Internet
+                        Explorer 5.0
+                      </td>
+                      <td>Win 95+</td>
+                      <td>5</td>
+                      <td>C</td>
+                    </tr>
+                    <tr>
+                      <td>Trident</td>
+                      <td>Internet
+                        Explorer 5.5
+                      </td>
+                      <td>Win 95+</td>
+                      <td>5.5</td>
+                      <td>A</td>
+                    </tr>
+                    </tfoot>
+                  </table>
+                </div>
+                <!-- /.box-body -->
+              </div>
+
+            </div>
+            <!-- /.tab-pane -->
+          </div>
+          <!-- /.tab-content -->
+        </div>
+
+      </div>
+
+
+    </div>
+
+  </section><!-- /.content -->
+</div><!-- /.content-wrapper -->
+<!-- Modals-->
+
+<div id="modal_" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close btn_modal_close" >&times;</button>
+        <h4 class="modal-title" id="modal_title">Modal Header</h4>
+      </div>
+      <div class="modal-body" id="modal_body">
+        <p>Some text in the modal.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default btn_modal_close" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- end Modals-->
+
+
+
+
+<script src="/back/plugins/jQuery/jQuery-2.1.4.min.js"></script>
+<!-- Bootstrap 3.3.5 -->
+
+<script>
+  $(function () {
+    $("#table_created").DataTable();
+    $("#table_uploaded").DataTable();
+    $("#table_submited").DataTable();
+
+  });
+
+  $("#btn_modal_close").click(modal_close("play"));
+
+
+  function modal_open( id,vid_id){
+    $("#modal_title").html("title id: "+id);
+    $("#modal_body").html("body vid_id: "+vid_id);
+
+    if(id == 'play'){
+
+     var content = '<video style="width: 100%" id="player" width="400" controls><source src="http://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4"><source src="http://www.w3schools.com/html/mov_bbb.ogg" type="video/ogg">Your browser does not support HTML5 video.</video>';
+      $("#modal_body").html(content);
+
+
+    }
+
+    $('#modal_').modal({
+      backdrop: 'static',
+      keyboard: false
+    });
+
+    $("#modal_").modal('show');
+
+    $('.btn_modal_close').attr('onClick', "modal_close('"+id+"')");
+
+  }
+
+  function modal_close( id){
+    $("#modal_").modal('hide');
+    $("#modal_body").html('Closing...');
+
+
+  }
+
+
+
+
+
+</script>
+

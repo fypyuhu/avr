@@ -1,0 +1,57 @@
+
+
+<div class="register-box">
+  <div class="register-logo">
+    <a href="/"><b>Admin</b>LTE</a>
+  </div>
+
+  <div class="register-box-body">
+    <p class="login-box-msg">Register a new membership</p>
+    <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
+  <ul style="color:red">
+        <%= devise_error_messages! do |e| %>
+        puts "<li>"+e.to_s+"</li>"
+        <%end%>
+</ul>
+
+
+      <div class="form-group has-feedback">
+        <%= f.email_field :email, autofocus: true ,class: 'form-control',placeholder: 'Email' ,type: 'email' ,required: ''%>
+
+        <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
+      </div>
+        <% if @minimum_password_length %>
+            <em>(<%= @minimum_password_length %> characters minimum)</em>
+        <% end %>
+      <div class="form-group has-feedback">
+
+
+        <%= f.password_field :password, autocomplete: "off" ,placeholder: 'Retype password',class: 'form-control' ,required: ''%>
+
+        <span class="glyphicon glyphicon-lock form-control-feedback"></span>
+      </div>
+      <div class="form-group has-feedback">
+        <%= f.password_field :password_confirmation, autocomplete: "off" ,placeholder: 'Retype password',class: 'form-control' ,required: ''%>
+
+        <span class="glyphicon glyphicon-log-in form-control-feedback"></span>
+      </div>
+      <div class="row">
+        <div class="col-xs-8">
+          <div class="checkbox icheck">
+            <label class="">
+              <div aria-disabled="false" aria-checked="false" style="position: relative;" class="icheckbox_square-blue"><input style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; border: 0px none; opacity: 0;" type="checkbox"><ins style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; border: 0px none; opacity: 0;" class="iCheck-helper"></ins></div> I agree to the <a href="#">terms</a>
+            </label>
+          </div>
+        </div><!-- /.col -->
+        <div class="col-xs-4">
+          <%= f.submit "Sign up" , class: 'btn btn-primary btn-block btn-flat' %>
+
+        </div><!-- /.col -->
+      </div>
+<% end %>
+
+
+
+<%= render "devise/shared/links" %>
+  </div><!-- /.form-box -->
+</div>
