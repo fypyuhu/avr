@@ -3,7 +3,7 @@ class UserController < ApplicationController
   layout "userpanel"
 
   def index
-    UserMailer.welcome_email(@user).send
+    UserMailer.welcome_email(@user).deliver_later
 
   end
   def myvideos
