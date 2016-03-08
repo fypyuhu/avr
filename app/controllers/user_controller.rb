@@ -4,7 +4,7 @@ class UserController < ApplicationController
 
   def index
     @user = current_user
-    #UserMailer.welcome_email(@user).deliver_later
+    UserMailer.welcome_email(@user).deliver_later
 
   end
   def myvideos
