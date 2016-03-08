@@ -3,6 +3,7 @@ class UserController < ApplicationController
   layout "userpanel"
 
   def index
+    @user = current_user
     UserMailer.welcome_email(@user).deliver_later
 
   end
