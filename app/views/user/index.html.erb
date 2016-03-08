@@ -1,5 +1,23 @@
+
 <div class="content-wrapper">
   <!-- Content Header (Page header) -->
+ <% if(@user.confirmed_at == nil) %>
+  <div class="alert alert-danger alert-dismissible">
+    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+    <h4><i class="icon fa fa-ban"></i> Alert!</h4>
+Please Confirmed Your Email Account
+
+
+  </div>
+  <% end %>
+  <% flash.each do |key, value| %>          <div class="alert alert-warning alert-dismissible">
+            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+            <h4><i class="icon fa fa-warning"></i> Alert!</h4>
+
+                <div class="flash <%= key %>"><%= value %></div>
+          </div>
+
+<%end%>
   <section class="content-header">
     <h1>
       <i class="fa fa-dashboard"></i> Dashboard
