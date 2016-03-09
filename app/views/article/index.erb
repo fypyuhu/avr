@@ -1,0 +1,158 @@
+
+<div class="content-wrapper">
+  <!-- Content Header (Page header) -->
+  <section class="content-header">
+    <h1>
+      <i class="fa fa-video-camera"></i> Create a Video
+      <small>Scrap, Select Template , Select Voice  and create your video here</small>
+    </h1>
+
+  </section>
+
+  <!-- Main content -->
+  <section class="content">
+
+    <div class="row">
+      <div class="col-md-12" >
+        <p>
+          <a class="btn btn-block btn-social btn-default" onclick="modal_open('keyword',null)">
+
+            <i class="fa fa-search"></i>Search Article from keyword
+          </a>
+        </p>
+       <b> or</b>
+        <p>
+
+        <form action="#" method="get" class="sidebar-form" style="margin: 0;">
+          <div class="input-group">
+            <input name="q" class="form-control" placeholder="Enter the Url of the Article" type="text">
+              <span class="input-group-btn">
+                <button type="submit" name="search" id="search-btn" class="btn btn-flat"><i class="fa fa-sort-amount-desc"></i>SCRAP ARTICLE
+                </button>
+              </span>
+          </div>
+        </form>
+
+        </p>
+      </div>
+
+      <div class="col-md-12" >
+          <div class="box box-success show" >
+            <div class="box-header with-border">
+              <h3 class="box-title">Scraped data</h3>
+
+
+              <!-- /.box-tools -->
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body">
+
+              <div class="input-group">
+                <div class="input-group-addon">
+                  <i class="fa fa-header"></i>
+                </div>
+                <input class="form-control"  type="text">
+                <span class="input-group-addon">
+                          <input type="checkbox">
+                </span>
+              </div>
+              <br />
+              <div class="input-group">
+                <div class="input-group-addon">
+                  <i class="fa fa-font"></i>
+                </div>
+                <textarea class="form-control"  type="text"></textarea>
+                <span class="input-group-addon">
+                          <input type="checkbox">
+                </span>
+              </div>
+
+
+            </div>
+            <!-- /.box-body -->
+          </div>
+          <!-- /.box -->
+
+      </div>
+
+
+    </div>
+
+  </section><!-- /.content -->
+</div><!-- /.content-wrapper -->
+<!-- Modals-->
+
+<div id="modal_" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close btn_modal_close" >&times;</button>
+        <h4 class="modal-title" id="modal_title">Modal Header</h4>
+      </div>
+      <div class="modal-body" id="modal_body">
+        <p>Some text in the modal.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default btn_modal_close" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- end Modals-->
+
+
+
+
+<!-- Bootstrap 3.3.5 -->
+
+<script>
+  $(function () {
+    $("#table_created").DataTable();
+    $("#table_uploaded").DataTable();
+    $("#table_submited").DataTable();
+
+  });
+
+  $("#btn_modal_close").click(modal_close("play"));
+
+
+  function modal_open( id,vid_id){
+    $("#modal_title").html("title id: "+id);
+    $("#modal_body").html("body vid_id: "+vid_id);
+
+    if(id == 'play'){
+
+      var content = '<video style="width: 100%" id="player" width="400" controls><source src="http://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4"><source src="http://www.w3schools.com/html/mov_bbb.ogg" type="video/ogg">Your browser does not support HTML5 video.</video>';
+      $("#modal_body").html(content);
+
+
+    }
+
+    $('#modal_').modal({
+      backdrop: 'static',
+      keyboard: false
+    });
+
+    $("#modal_").modal('show');
+
+    $('.btn_modal_close').attr('onClick', "modal_close('"+id+"')");
+
+  }
+
+  function modal_close( id){
+    $("#modal_").modal('hide');
+    $("#modal_body").html('Closing...');
+
+
+  }
+
+
+
+
+
+</script>
+

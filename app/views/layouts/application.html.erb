@@ -8,7 +8,7 @@
 <% if(user_signed_in?) %>
 
   <td><%= link_to 'Sign out', '/users/sign_out' , method: :delete, data: { confirm: 'Are you sure to Sign Out?' } %></td>
-  <td><%= link_to 'Tasks', '/tasks' %></td>
+    <td><%= link_to 'User Panel', '/user/index'  %></td>
 
 <% else %>
   <td><%= link_to 'Sign In', '/users/sign_in' %></td>
