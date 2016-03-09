@@ -9,6 +9,7 @@ Rails.application.routes.draw do
   get 'user/video/' =>'user#myvideos'
 
   get 'user/video/article' =>'article#index'
+  get 'user/video/article/scrap' =>'article#scrap'
 
   devise_for :users
   get 'home/index'

@@ -23,15 +23,15 @@
        <b> or</b>
         <p>
 
-        <form action="#" method="get" class="sidebar-form" style="margin: 0;">
+        <div action="#" method="get" class="sidebar-form" style="margin: 0;">
           <div class="input-group">
-            <input name="q" class="form-control" placeholder="Enter the Url of the Article" type="text">
+            <input name="q" class="form-control" id="article_url" placeholder="Enter the Url of the Article" type="text">
               <span class="input-group-btn">
-                <button type="submit" name="search" id="search-btn" class="btn btn-flat"><i class="fa fa-sort-amount-desc"></i>SCRAP ARTICLE
+                <button type="submit" name="search" id="btn_article_url"  class="btn btn-flat"><i class="fa fa-sort-amount-desc"></i>SCRAP ARTICLE
                 </button>
               </span>
           </div>
-        </form>
+        </div>
 
         </p>
       </div>
@@ -45,7 +45,7 @@
               <!-- /.box-tools -->
             </div>
             <!-- /.box-header -->
-            <div class="box-body">
+            <div class="box-body" id="box_body">
 
               <div class="input-group">
                 <div class="input-group-addon">
@@ -66,6 +66,7 @@
                           <input type="checkbox">
                 </span>
               </div>
+              <br />
 
 
             </div>
@@ -110,45 +111,21 @@
 <!-- Bootstrap 3.3.5 -->
 
 <script>
-  $(function () {
-    $("#table_created").DataTable();
-    $("#table_uploaded").DataTable();
-    $("#table_submited").DataTable();
+
+$("#btn_article_url").click(function(){
+
+  var url = $("#article_url").val();
+  $.getJSON("/user/video/article/scrap?url="+url,function(data){
+
+    $.each(data, function(key, val) {
+      $("#box_body").append("<div class='input-group'> <div class='input-group-addon'> <i class='fa fa-header'></i> </div> <input class='form-control' id='heading_"+key+"'  value='"+val+"' type='text'> <span class='input-group-addon'> <input type='checkbox'> </span> </div><br>");
+    });
 
   });
 
-  $("#btn_modal_close").click(modal_close("play"));
+  //modal_open(url,url);
 
-
-  function modal_open( id,vid_id){
-    $("#modal_title").html("title id: "+id);
-    $("#modal_body").html("body vid_id: "+vid_id);
-
-    if(id == 'play'){
-
-      var content = '<video style="width: 100%" id="player" width="400" controls><source src="http://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4"><source src="http://www.w3schools.com/html/mov_bbb.ogg" type="video/ogg">Your browser does not support HTML5 video.</video>';
-      $("#modal_body").html(content);
-
-
-    }
-
-    $('#modal_').modal({
-      backdrop: 'static',
-      keyboard: false
-    });
-
-    $("#modal_").modal('show');
-
-    $('.btn_modal_close').attr('onClick', "modal_close('"+id+"')");
-
-  }
-
-  function modal_close( id){
-    $("#modal_").modal('hide');
-    $("#modal_body").html('Closing...');
-
-
-  }
+});
 
 
 
