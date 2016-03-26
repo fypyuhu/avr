@@ -54,3 +54,4 @@ gem 'mysql2'
 
 gem 'therubyracer'
 gem 'devise'
+gem 'addressable'

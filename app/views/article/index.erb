@@ -115,10 +115,61 @@
 $("#btn_article_url").click(function(){
 
   var url = $("#article_url").val();
+  var h1 = [];
+  var h2 = [];
+  var h3 = [];
+  var p  = [];
+  var data1  = [];
+  var slides = [];
+  var slide = {};
   $.getJSON("/user/video/article/scrap?url="+url,function(data){
 
+
+
     $.each(data, function(key, val) {
-      $("#box_body").append("<div class='input-group'> <div class='input-group-addon'> <i class='fa fa-header'></i> </div> <input class='form-control' id='heading_"+key+"'  value='"+val+"' type='text'> <span class='input-group-addon'> <input type='checkbox'> </span> </div><br>");
+
+      if(key == 'h1')
+        h1 = (val);
+      if(key == 'h2')
+        h2 = val ;
+      if(key == 'h3')
+        h3 = val;
+      if(key == 'p')
+        p = val;
+
+    });
+    $.each(p ,function(key,val){
+      data1.push(val);
+
+
+    });
+    $.each(h1 ,function(key,val){
+      data1.push(val);
+
+
+    });
+    $.each(h2 ,function(key,val){
+      data1.push(val);
+
+
+    });
+    $.each(h3 ,function(key,val){
+      data1.push(val);
+
+
+    });
+
+
+
+    data1 = sort(data1);
+
+    $.each(data1,function(key,val)){
+
+    });
+    $.each(data1, function(key,val) {
+
+      $("#box_body").append("<div class='input-group'> <div class='input-group-addon'> <i class='fa fa-header'></i> </div> <input class='form-control' id='heading_"+key+"'  value='" +val.name+"-"+val.lineNumber+"-"+val.text + "' type='text'> <span class='input-group-addon'> <input type='checkbox'> </span> </div><br>");
+
     });
 
   });
@@ -128,8 +179,22 @@ $("#btn_article_url").click(function(){
 });
 
 
+function sort(data){
+  tempObject ={};
+  for (i = 0; i < data.length; i++) {
+    for(j=0;j<data.length;j++){
+      if(data[i].lineNumber < data[j].lineNumber) {
+        tempObject = data[i];
+        data[i] = data[j];
+        data[j] = tempObject;
 
+      }
 
+    }
+  }
+  return data;
+
+}
 
 </script>
 
