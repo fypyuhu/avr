@@ -58,16 +58,8 @@ class ArticleController < ApplicationController
 
 
 #   data = doc.css("body").children[1].css('a')[0]['name']
-    @hash = {
 
-
-        'h1' => extract(children , 'h1'),
-        'h2' => extract(children , 'h2'),
-        'h3' => extract(children , 'h3'),
-        'p' =>  extract(children , 'p'),
-    }
-
-    render :json =>         @hash.as_json
+    render :json =>        extractData(children).as_json
 
 
   end
@@ -81,7 +73,7 @@ class ArticleController < ApplicationController
     data = []
     for i in 0...  page.css(parameter).count
       if(attr == false)
-        data[i] = page.css(parameter)[i].text.delete("\n")
+        data[i] = page.css(parameter)[i].text.delete("\n").delete("\t").delete("  ").delete("  ");
 
       else
         data[i] = page.css(parameter)[i].attr(attr)
@@ -129,7 +121,7 @@ end
    end
    level
  end
-  def extract children , element
+  def extract children  , element
     nodes = children.css(element);
 
     i  = 0;
@@ -137,7 +129,7 @@ end
     nodes.each do |node|
       h1 = Hash.new
 
-      h1["text"] = node.text
+      h1["text"] = node.text.delete("\n").delete("\t").delete("  ").delete("  ")
       h1["lineNumber"] = node.line
 #      h1["level"] = findLevel node , 'body',
       h1["name"] = element
@@ -146,4 +138,60 @@ end
     end
   data
   end
+
+  def extractData children
+    data = []
+    i  = 0;
+
+
+    nodes = children.css('h1');
+    nodes.each do |node|
+      h1 = Hash.new
+
+      h1["text"] = node.text.delete("\n").delete("\t").delete("  ").delete("  ")
+      h1["lineNumber"] = node.line
+#      h1["level"] = findLevel node , 'body',
+      h1["name"] = 'h'
+      data[i] =h1
+      i = i + 1
+    end
+
+    nodes = children.css('h2');
+    nodes.each do |node|
+      h1 = Hash.new
+
+      h1["text"] = node.text.delete("\n").delete("\t").delete("  ").delete("  ").delete("  ").delete("  ")
+      h1["lineNumber"] = node.line
+#      h1["level"] = findLevel node , 'body',
+      h1["name"] = 'h'
+      data[i] =h1
+      i = i + 1
+    end
+      nodes = children.css('h3');
+      nodes.each do |node|
+        h1 = Hash.new
+
+        h1["text"] = node.text.delete("\n").delete("\t").delete("  ").delete("  ").delete("  ").delete("  ")
+        h1["lineNumber"] = node.line
+  #      h1["level"] = findLevel node , 'body',
+        h1["name"] = 'h'
+        data[i] =h1
+        i = i + 1
+      end
+
+    nodes = children.css('p');
+    nodes.each do |node|
+      h1 = Hash.new
+
+      h1["text"] = node.text.delete("\n").delete("\t")
+      h1["lineNumber"] = node.line
+#      h1["level"] = findLevel node , 'body',
+      h1["name"] = 'p'
+      data[i] =h1
+      i = i + 1
+    end
+    data
+  end
+
+
 end
