@@ -55,3 +55,6 @@ gem 'mysql2'
 gem 'therubyracer'
 gem 'devise'
 gem 'addressable'
+
+gem 'imgkit'
+gem 'wkhtmltoimage-binary'

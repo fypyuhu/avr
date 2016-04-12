@@ -1,6 +1,14 @@
 Rails.application.routes.draw do
 
 
+  get 'makker/heading' =>'images_makker#heading'
+
+  get 'makker/paragraph'=>'images_makker#paragraph'
+
+  get 'makker/create'=>'images_makker#create'
+
+  get 'images/create'
+
   get 'user/index'
 
   get 'user/myvideos'
