@@ -2,16 +2,59 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95f31f1d-3846-4e61-b429-13782cea6085" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/images_makker/create.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/raw/video/2/slide/1/h.png" afterPath="$PROJECT_DIR$/raw/video/2/slide/1/h.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/raw/video/2/slide/1/h0.png" afterPath="$PROJECT_DIR$/raw/video/2/slide/1/h0.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/raw/video/2/slide/1/h1.png" afterPath="$PROJECT_DIR$/raw/video/2/slide/1/h1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/raw/video/2/slide/1/h2.png" afterPath="$PROJECT_DIR$/raw/video/2/slide/1/h2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/raw/video/2/slide/1/h3.png" afterPath="$PROJECT_DIR$/raw/video/2/slide/1/h3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/raw/video/2/slide/1/h4.png" afterPath="$PROJECT_DIR$/raw/video/2/slide/1/h4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/raw/video/2/slide/1/h5.png" afterPath="$PROJECT_DIR$/raw/video/2/slide/1/h5.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/raw/video/2/slide/1/h6.png" afterPath="$PROJECT_DIR$/raw/video/2/slide/1/h6.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/raw/video/2/slide/1/h7.png" afterPath="$PROJECT_DIR$/raw/video/2/slide/1/h7.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/raw/video/2/slide/1/h8.png" afterPath="$PROJECT_DIR$/raw/video/2/slide/1/h8.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/raw/video/2/slide/1/h9.png" afterPath="$PROJECT_DIR$/raw/video/2/slide/1/h9.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/raw/video/2/slide/1/l0l.png" afterPath="$PROJECT_DIR$/raw/video/2/slide/1/l0l.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/raw/video/2/slide/1/l0l0.png" afterPath="$PROJECT_DIR$/raw/video/2/slide/1/l0l0.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/raw/video/2/slide/1/l0l1.png" afterPath="$PROJECT_DIR$/raw/video/2/slide/1/l0l1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/raw/video/2/slide/1/l0l2.png" afterPath="$PROJECT_DIR$/raw/video/2/slide/1/l0l2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/raw/video/2/slide/1/l0l3.png" afterPath="$PROJECT_DIR$/raw/video/2/slide/1/l0l3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/raw/video/2/slide/1/l0l4.png" afterPath="$PROJECT_DIR$/raw/video/2/slide/1/l0l4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/raw/video/2/slide/1/l0l5.png" afterPath="$PROJECT_DIR$/raw/video/2/slide/1/l0l5.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/raw/video/2/slide/1/l0l6.png" afterPath="$PROJECT_DIR$/raw/video/2/slide/1/l0l6.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/raw/video/2/slide/1/l0l7.png" afterPath="$PROJECT_DIR$/raw/video/2/slide/1/l0l7.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/raw/video/2/slide/1/l0l8.png" afterPath="$PROJECT_DIR$/raw/video/2/slide/1/l0l8.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/raw/video/2/slide/1/l0l9.png" afterPath="$PROJECT_DIR$/raw/video/2/slide/1/l0l9.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/raw/video/2/slide/1/l1l.mp4" afterPath="$PROJECT_DIR$/raw/video/2/slide/1/l1l.mp4" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/raw/video/2/slide/1/l1l.png" afterPath="$PROJECT_DIR$/raw/video/2/slide/1/l1l.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/raw/video/2/slide/1/l1l0.png" afterPath="$PROJECT_DIR$/raw/video/2/slide/1/l1l0.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/raw/video/2/slide/1/l1l1.png" afterPath="$PROJECT_DIR$/raw/video/2/slide/1/l1l1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/raw/video/2/slide/1/l1l2.png" afterPath="$PROJECT_DIR$/raw/video/2/slide/1/l1l2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/raw/video/2/slide/1/l1l3.png" afterPath="$PROJECT_DIR$/raw/video/2/slide/1/l1l3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/raw/video/2/slide/1/l1l4.png" afterPath="$PROJECT_DIR$/raw/video/2/slide/1/l1l4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/raw/video/2/slide/1/l1l5.png" afterPath="$PROJECT_DIR$/raw/video/2/slide/1/l1l5.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/raw/video/2/slide/1/l1l6.png" afterPath="$PROJECT_DIR$/raw/video/2/slide/1/l1l6.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/raw/video/2/slide/1/l1l7.png" afterPath="$PROJECT_DIR$/raw/video/2/slide/1/l1l7.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/raw/video/2/slide/1/l1l8.png" afterPath="$PROJECT_DIR$/raw/video/2/slide/1/l1l8.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/raw/video/2/slide/1/l1l9.png" afterPath="$PROJECT_DIR$/raw/video/2/slide/1/l1l9.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/raw/video/2/slide/1/l2l.mp4" afterPath="$PROJECT_DIR$/raw/video/2/slide/1/l2l.mp4" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/raw/video/2/slide/1/l2l.png" afterPath="$PROJECT_DIR$/raw/video/2/slide/1/l2l.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/raw/video/2/slide/1/l2l0.png" afterPath="$PROJECT_DIR$/raw/video/2/slide/1/l2l0.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/raw/video/2/slide/1/l2l1.png" afterPath="$PROJECT_DIR$/raw/video/2/slide/1/l2l1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/raw/video/2/slide/1/l2l2.png" afterPath="$PROJECT_DIR$/raw/video/2/slide/1/l2l2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/raw/video/2/slide/1/l2l3.png" afterPath="$PROJECT_DIR$/raw/video/2/slide/1/l2l3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/raw/video/2/slide/1/l2l4.png" afterPath="$PROJECT_DIR$/raw/video/2/slide/1/l2l4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/raw/video/2/slide/1/l2l5.png" afterPath="$PROJECT_DIR$/raw/video/2/slide/1/l2l5.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/raw/video/2/slide/1/l2l6.png" afterPath="$PROJECT_DIR$/raw/video/2/slide/1/l2l6.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/raw/video/2/slide/1/l2l7.png" afterPath="$PROJECT_DIR$/raw/video/2/slide/1/l2l7.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/raw/video/2/slide/1/l2l8.png" afterPath="$PROJECT_DIR$/raw/video/2/slide/1/l2l8.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/raw/video/2/slide/1/l2l9.png" afterPath="$PROJECT_DIR$/raw/video/2/slide/1/l2l9.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/raw/video/2/slide/1/output.mp4" afterPath="$PROJECT_DIR$/raw/video/2/slide/1/output.mp4" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/article1.iml" afterPath="$PROJECT_DIR$/.idea/article1.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/database.yml" afterPath="$PROJECT_DIR$/config/database.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/images_makker_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/images_makker_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/raw/video/2/slide/1/mylist.txt" afterPath="$PROJECT_DIR$/raw/video/2/slide/1/mylist.txt" />
     </list>
     <ignored path="article1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,7 +68,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/article1@Development__article1.coverage" NAME="Development: article1 Coverage Results" MODIFIED="1460406452566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="article1" />
+    <SUITE FILE_PATH="coverage/article1@Development__article1.coverage" NAME="Development: article1 Coverage Results" MODIFIED="1460421649515" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="article1" />
     <SUITE FILE_PATH="coverage/article1@db_migrate__article1.coverage" NAME="db:migrate: article1 Coverage Results" MODIFIED="1457126470074" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="article1" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -52,23 +95,26 @@
       <file leaf-file-name="images_makker_controller.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/images_makker_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.53642386">
-              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.84934497">
+              <caret line="220" column="40" selection-start-line="220" selection-start-column="40" selection-end-line="220" selection-end-column="40" />
               <folding>
-                <element signature="e#715#1045#0" expanded="false" />
-                <element signature="e#3034#3231#0" expanded="false" />
-                <element signature="e#3793#4010#1" expanded="false" />
+                <element signature="e#884#1316#0" expanded="false" />
+                <element signature="e#1320#1720#0" expanded="false" />
+                <element signature="e#1723#2154#0" expanded="false" />
+                <element signature="e#2159#2459#0" expanded="false" />
+                <element signature="e#2463#2789#0" expanded="false" />
+                <element signature="e#2792#3049#0" expanded="false" />
+                <element signature="e#3062#3300#1" expanded="false" />
+                <element signature="e#3304#3473#0" expanded="false" />
+                <element signature="e#3480#3677#0" expanded="false" />
+                <element signature="e#3682#3868#0" expanded="false" />
+                <element signature="e#3871#4023#0" expanded="false" />
+                <element signature="e#4027#4225#0" expanded="false" />
+                <element signature="e#5590#5886#1" expanded="false" />
+                <element signature="e#5898#5957#1" expanded="false" />
+                <element signature="e#5963#6303#0" expanded="false" />
+                <element signature="e#6306#6436#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="create.html.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/images_makker/create.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -76,8 +122,8 @@
       <file leaf-file-name="Gemfile" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="59" column="25" selection-start-line="59" selection-start-column="25" selection-end-line="59" selection-end-column="25" />
+            <state vertical-scroll-proportion="-3.75">
+              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -90,6 +136,7 @@
       <list>
         <option value="Erb File.html" />
         <option value="JavaScript File" />
+        <option value="Ruby Class Template" />
       </list>
     </option>
   </component>
@@ -141,6 +188,7 @@
         <option value="$PROJECT_DIR$/app/views/images_makker/heading.html.erb" />
         <option value="$PROJECT_DIR$/app/views/images_makker/paragraph.html.erb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/tts.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/controllers/images_makker_controller.rb" />
       </list>
@@ -197,15 +245,9 @@
               <option name="myItemId" value="article1" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="article1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="avr" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -217,8 +259,18 @@
               <option name="myItemId" value="avr" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
+              <option name="myItemId" value="article1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="avr" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -236,43 +288,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="article1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="avr" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images_makker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="article1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="avr" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
+              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -502,9 +518,9 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2021522" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30503598" sideWeight="0.3912375" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24604316" sideWeight="0.67179096" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30503598" sideWeight="0.6087625" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24604316" sideWeight="0.32820907" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -534,14 +550,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="59" column="25" selection-start-line="59" selection-start-column="25" selection-end-line="59" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -555,9 +563,22 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#715#1045#0" expanded="false" />
-            <element signature="e#3034#3231#0" expanded="false" />
-            <element signature="e#3793#4010#1" expanded="false" />
+            <element signature="e#884#1316#0" expanded="false" />
+            <element signature="e#1320#1720#0" expanded="false" />
+            <element signature="e#1723#2154#0" expanded="false" />
+            <element signature="e#2159#2459#0" expanded="false" />
+            <element signature="e#2463#2789#0" expanded="false" />
+            <element signature="e#2792#3049#0" expanded="false" />
+            <element signature="e#3062#3300#1" expanded="false" />
+            <element signature="e#3304#3473#0" expanded="false" />
+            <element signature="e#3480#3677#0" expanded="false" />
+            <element signature="e#3682#3868#0" expanded="false" />
+            <element signature="e#3871#4023#0" expanded="false" />
+            <element signature="e#4027#4225#0" expanded="false" />
+            <element signature="e#5590#5886#1" expanded="false" />
+            <element signature="e#5898#5957#1" expanded="false" />
+            <element signature="e#5963#6303#0" expanded="false" />
+            <element signature="e#6306#6436#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -865,14 +886,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="59" column="25" selection-start-line="59" selection-start-column="25" selection-end-line="59" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/images_makker/heading.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -887,6 +900,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.75">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/images_makker/create.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -897,12 +918,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/images_makker_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.53642386">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.84934497">
+          <caret line="220" column="40" selection-start-line="220" selection-start-column="40" selection-end-line="220" selection-end-column="40" />
           <folding>
-            <element signature="e#715#1045#0" expanded="false" />
-            <element signature="e#3034#3231#0" expanded="false" />
-            <element signature="e#3793#4010#1" expanded="false" />
+            <element signature="e#884#1316#0" expanded="false" />
+            <element signature="e#1320#1720#0" expanded="false" />
+            <element signature="e#1723#2154#0" expanded="false" />
+            <element signature="e#2159#2459#0" expanded="false" />
+            <element signature="e#2463#2789#0" expanded="false" />
+            <element signature="e#2792#3049#0" expanded="false" />
+            <element signature="e#3062#3300#1" expanded="false" />
+            <element signature="e#3304#3473#0" expanded="false" />
+            <element signature="e#3480#3677#0" expanded="false" />
+            <element signature="e#3682#3868#0" expanded="false" />
+            <element signature="e#3871#4023#0" expanded="false" />
+            <element signature="e#4027#4225#0" expanded="false" />
+            <element signature="e#5590#5886#1" expanded="false" />
+            <element signature="e#5898#5957#1" expanded="false" />
+            <element signature="e#5963#6303#0" expanded="false" />
+            <element signature="e#6306#6436#0" expanded="false" />
           </folding>
         </state>
       </provider>

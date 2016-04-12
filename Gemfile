@@ -58,3 +58,6 @@ gem 'addressable'
 
 gem 'imgkit'
 gem 'wkhtmltoimage-binary'
+
+gem "rspec", "~> 2.6"
+gem "jeweler", "~> 1.6.2"
